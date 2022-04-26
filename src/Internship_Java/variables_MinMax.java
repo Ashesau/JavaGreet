@@ -27,11 +27,5 @@ public class variables_MinMax {
 
         System.out.println("Boolean1 " + Boolean.TRUE);
         System.out.println("Boolean2 " + Boolean.FALSE);
-
-        System.out.println("Char MAX POINT " + Character.MAX_CODE_POINT);
-        System.out.println("Char MIN POINT " + Character.MIN_CODE_POINT);
-
-        System.out.println("Char MAX RADIX " + Character.MAX_RADIX);
-        System.out.println("Char MIN RADIX " + Character.MIN_RADIX);
     }
 }

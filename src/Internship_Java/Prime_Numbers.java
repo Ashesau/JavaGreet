@@ -6,9 +6,9 @@ public class Prime_Numbers {
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
-        System.out.println("Введите 2 любых числа:");
-        int min = s.nextInt();
-        int max = s.nextInt();
+
+        int min = 1;
+        int max = 100;
         boolean isComposite = false;
         String numbers = "";
 
@@ -25,5 +25,6 @@ public class Prime_Numbers {
             isComposite = false;
         }
         System.out.println(numbers);
+        s.close();
     }
 }

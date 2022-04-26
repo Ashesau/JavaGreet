@@ -11,13 +11,13 @@ public class Basket {
 
         while (true) {
             String word = scan.nextLine();
-            if (!word.equals("exit")) {
+            if (!word.equals("готово")) {
                 basket += word + " ";
                 System.out.println(basket);
             }
             else {
-                System.out.println(basket);
-                break;
+                System.out.println("Товар в корзине. Для выхода из корзины нажмите ESC");
+                scan.close();
             }
         }
     }
