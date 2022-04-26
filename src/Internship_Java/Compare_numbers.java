@@ -17,6 +17,6 @@ public class Compare_numbers {
         }
         else
             System.out.println(num_2);
-        scan.close();
+            scan.close();
     }
 }

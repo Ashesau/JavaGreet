@@ -16,8 +16,8 @@ public class Basket {
                 System.out.println(basket);
             }
             else {
-                System.out.println("Товар в корзине. Для выхода из корзины нажмите ESC");
-                scan.close();
+                System.out.println("Товар в корзине!");
+                break;
             }
         }
     }

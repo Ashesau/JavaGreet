@@ -6,18 +6,15 @@ public class Password {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int password;
+        System.out.println("Введите ваш пароль:");
+        String pswr1 = sc.nextLine();
 
-        do{
-            System.out.println("Введите ваш пароль:");
-            password = sc.nextInt();
-            if (password != 12345) {
-                System.out.println("Повторите пароль");
+        System.out.println("Повторите свой пароль:");
+        String pswr_2 = sc.nextLine();
+            if (pswr1.equals(pswr_2)) {
+                System.out.println("Пароль успешно сохранен!");
+            } else {
+                System.out.println("Пароли не совпадают!");
             }
-            if (password == 12345) {
-                System.out.println("Введен верный пароль!");
-            }
-        } while (password != 12345);
-        sc.close();
     }
 }

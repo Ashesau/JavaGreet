@@ -7,8 +7,8 @@ public class Prime_Numbers {
 
         Scanner s = new Scanner(System.in);
 
-        int min = 1;
-        int max = 100;
+        int min = s.nextInt();
+        int max = s.nextInt();
         boolean isComposite = false;
         String numbers = "";
 
