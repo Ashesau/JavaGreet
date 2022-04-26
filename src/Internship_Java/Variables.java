@@ -2,7 +2,7 @@ package Internship_Java;
 
 import java.lang.String;
 
-public class variables_MinMax {
+public class Variables {
     public static void main(String[] args) {
         System.out.println("Byte MAX " + Byte.MAX_VALUE);
         System.out.println("Byte MIN" + Byte.MIN_VALUE);

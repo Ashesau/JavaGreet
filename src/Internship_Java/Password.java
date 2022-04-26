@@ -8,13 +8,15 @@ public class Password {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите ваш пароль:");
         String pswr1 = sc.nextLine();
+        boolean correctPass = true;
 
-        System.out.println("Повторите свой пароль:");
-        String pswr_2 = sc.nextLine();
-            if (pswr1.equals(pswr_2)) {
+        while (correctPass == true) {
+            System.out.println("Повторите свой пароль:");
+            String pswr2 = sc.nextLine();
+            if (pswr1.equals(pswr2)) {
                 System.out.println("Пароль успешно сохранен!");
-            } else {
-                System.out.println("Пароли не совпадают!");
+                correctPass = false;
             }
+        }
     }
 }

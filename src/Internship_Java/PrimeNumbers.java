@@ -2,11 +2,11 @@ package Internship_Java;
 
 import java.util.Scanner;
 
-public class Prime_Numbers {
+public class PrimeNumbers {
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
-
+        System.out.println("Введите 2 любых целых числа:");
         int min = s.nextInt();
         int max = s.nextInt();
         boolean isComposite = false;

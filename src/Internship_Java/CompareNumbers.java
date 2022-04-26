@@ -2,7 +2,7 @@ package Internship_Java;
 
 import java.util.Scanner;
 
-public class Compare_numbers {
+public class CompareNumbers {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
